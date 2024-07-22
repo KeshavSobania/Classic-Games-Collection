@@ -7,7 +7,7 @@ The Sudoku Solver is a C++ program that solves Sudoku puzzles by finding a valid
 ## Features
 * Board Representation: The board is represented using a 2D character array, where each element represents a cell on the board. An empty cell is represented by '''.'''.
 * Board Visualization: The board is printed with different colors for initial values and the filled values. Initial values are shown in green, and filled values are shown in red.
-* Validation: The '''canFill''' function checks if a number can be placed in a specific cell without violating the Sudoku rules.
+* Validation: The ''' canFill ''' function checks if a number can be placed in a specific cell without violating the Sudoku rules.
 * Backtracking Algorithm: The '''Sudoku''' function uses a backtracking algorithm to solve the puzzle by recursively filling empty cells with valid values and backtracking when necessary.
 * Customizable Puzzles: The program will solve the predefined Sudoku puzzle in the code. You can modify the board variable in the '''main''' function to solve different puzzles.
 ## Connect 4
